@@ -1,0 +1,10 @@
+train: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/train
+val: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/val
+test: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/test
+names:
+  0: open
+  1: short
+  2: mousebite
+  3: spur
+  4: copper
+  5: pinhole
