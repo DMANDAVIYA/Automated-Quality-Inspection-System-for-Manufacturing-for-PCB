@@ -1,0 +1,8 @@
+ultralytics
+sahi
+opencv-python
+numpy
+matplotlib
+scipy
+shapely
+pandas
