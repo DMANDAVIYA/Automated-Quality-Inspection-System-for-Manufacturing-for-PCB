@@ -5,7 +5,7 @@ from sahi.predict import get_sliced_prediction
 
 class PCBAligner:
     def __init__(self, n_feat=5000):
-        self.sift, self.matcher = cv2.SIFT_create(n_features=n_feat), cv2.FlannBasedMatcher(dict(algorithm=1, trees=5), dict(checks=50))
+        self.sift, self.matcher = cv2.SIFT_create(nfeatures=n_feat), cv2.FlannBasedMatcher(dict(algorithm=1, trees=5), dict(checks=50))
 
     def align(self, temp, tgt):
         kp1, des1 = self.sift.detectAndCompute(temp, None)
