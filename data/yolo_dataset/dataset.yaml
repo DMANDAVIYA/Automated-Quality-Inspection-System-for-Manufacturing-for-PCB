@@ -1,6 +1,6 @@
-train: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/train
-val: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/val
-test: /teamspace/studios/this_studio/Automated-Quality-Inspection-System-for-Manufacturing-for-PCB/data/yolo_dataset/images/test
+train: D:\A5\interviews\sapien\obj\data\yolo_dataset\images\train
+val: D:\A5\interviews\sapien\obj\data\yolo_dataset\images\val
+test: D:\A5\interviews\sapien\obj\data\yolo_dataset\images\test
 names:
   0: open
   1: short
